@@ -5,4 +5,10 @@ import ContactList from "./components/ContactList";
 import ContactItem from "./components/ContactItem";
 import ContactForm from "./components/ContactForm";
 
-export default homePage()
+export default function homePage() {
+   return (
+    <div>
+        <h1>KKK</h1>
+    </div>
+   );
+}
