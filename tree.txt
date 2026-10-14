@@ -1,0 +1,27 @@
+.gitignore (480b)
+AGENTS.md (679b)
+app/
+app/components/
+app/components/ContactForm.js (2529b)
+app/components/ContactItem.js (655b)
+app/components/ContactList.js (936b)
+app/components/FilterInput.js (278b)
+app/details/
+app/details/id/
+app/details/id/page.js (0b)
+app/layout.js (623b)
+app/pages.js (321b)
+eslint.config.mjs (465b)
+gitcontext.txt (1110b)
+next.config.ts (366b)
+package-lock.json (235810b)
+package.json (536b)
+participantes.md (113b)
+public/
+public/file.svg (391b)
+public/globe.svg (1035b)
+public/next.svg (1375b)
+public/vercel.svg (128b)
+public/window.svg (385b)
+README.md (1450b)
+tsconfig.json (666b)

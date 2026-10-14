@@ -1,0 +1,119 @@
+{
+  "turma": "1ESPQ",
+  "project": "joaoaraujo472-checkpoint-5-webdev-1espq",
+  "hasGit": true,
+  "nextRoots": [
+    {
+      "pkgPath": "package.json",
+      "dir": "/Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPQ/joaoaraujo472-checkpoint-5-webdev-1espq",
+      "next": "16.4.0",
+      "axios": null,
+      "react": "19.3.0",
+      "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint"
+      }
+    }
+  ],
+  "components": [
+    {
+      "name": "ContactForm",
+      "file": "app/components/ContactForm.js",
+      "inComponents": true
+    },
+    {
+      "name": "ContactList",
+      "file": "app/components/ContactList.js",
+      "inComponents": true
+    },
+    {
+      "name": "FilterInput",
+      "file": "app/components/FilterInput.js",
+      "inComponents": true
+    }
+  ],
+  "componentCount": 3,
+  "componentsInComponentsFolder": 3,
+  "axiosHits": [],
+  "fetchHits": [],
+  "useStateHits": [
+    "app/components/ContactForm.js:3: import { useCallback, useEffect, useRef, useState } from \"react\";",
+    "app/components/ContactForm.js:7: const [form, setform] = useState({nome: \"\", email: \"\", telefone: \"\"})",
+    "app/components/ContactForm.js:8: const [errors, setErrors] = useState({})"
+  ],
+  "useEffectHits": [
+    "app/components/ContactForm.js:3: import { useCallback, useEffect, useRef, useState } from \"react\";",
+    "app/components/ContactForm.js:11: useEffect(() => {"
+  ],
+  "useRouterHits": [],
+  "linkHits": [
+    "app/components/ContactItem.js:3: import Link from \"next/link\"",
+    "app/components/ContactItem.js:10: <Link"
+  ],
+  "useClientHits": [
+    "app/components/ContactForm.js:1: 'use client'",
+    "app/components/ContactItem.js:1: \"use client\"",
+    "app/components/FilterInput.js:1: 'use client'",
+    "app/pages.js:1: 'use client'"
+  ],
+  "useMemoHits": [],
+  "useCallbackHits": [
+    "app/components/ContactForm.js:3: import { useCallback, useEffect, useRef, useState } from \"react\";",
+    "app/components/ContactForm.js:35: const handleChange = useCallback((e) => {",
+    "app/components/ContactList.js:1: import { useCallback } from \"react\";",
+    "app/components/ContactList.js:6: const handleRemove = useCallback (async (id) => {"
+  ],
+  "useRefHits": [
+    "app/components/ContactForm.js:3: import { useCallback, useEffect, useRef, useState } from \"react\";",
+    "app/components/ContactForm.js:9: const nomeInputRef = useRef(null)"
+  ],
+  "localStorageHits": [],
+  "loadingHints": [],
+  "errorHints": [
+    "app/components/ContactForm.js:30: } catch (error) {",
+    "app/components/ContactForm.js:31: console.log(error)",
+    "app/components/ContactList.js:10: } catch (error) {",
+    "app/components/ContactList.js:11: console.log(\"error\")",
+    "package-lock.json:3625: \"zod-validation-error\": \"^3.5.0 || ^4.0.0\""
+  ],
+  "searchHints": [
+    "README.md:34: The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-tem",
+    "app/components/ContactList.js:9: setContacts((prev) => prev.filter((c) => c.id !== id))",
+    "app/components/FilterInput.js:7: placeholder=\"Filter por nome ou email...\"",
+    "package-lock.json:2452: \"node_modules/aria-query\": {",
+    "package-lock.json:2454: \"resolved\": \"https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz\",",
+    "package-lock.json:2665: \"node_modules/axobject-query\": {",
+    "package-lock.json:2667: \"resolved\": \"https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz\",",
+    "package-lock.json:3558: \"aria-query\": \"^5.3.2\",",
+    "package-lock.json:3563: \"axobject-query\": \"^4.1.0\","
+  ],
+  "dynamicRoutes": [],
+  "honeypots": [],
+  "reduxVueClass": [],
+  "readmes": [
+    {
+      "path": "README.md",
+      "preview": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Deploy on Vercel\n\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.\n\nCheck out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.\n"
+    }
+  ],
+  "participantes": [
+    {
+      "path": "participantes.md",
+      "preview": "Vitor Bianchini RM:569804\nRafaella Pazzanese RM: 572296\nJoão Vitor Da Silva RM: 571420\nLucas Lima Cruz RM:572047"
+    }
+  ],
+  "vercelLinks": [
+    "https://vercel.com/font",
+    "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+  ],
+  "apiHints": [],
+  "git": {
+    "commitCount": 5,
+    "branch": "main",
+    "remote": "origin\thttps://github.com/joaoaraujo472/checkpoint-5-webdev-1espq (fetch)\norigin\thttps://github.com/joaoaraujo472/checkpoint-5-webdev-1espq (push)",
+    "shortlog": "4\tLaboratório FIAP <labsfiap@fiap.com.br>\n     1\tjoao <joaoaaraujosilva2022@gmail.com>",
+    "logOneline": "26660a4 feat: adcionando participantes\ne1a2097 feat: adcionando contactList\n9a9c3c2 feat: adicionando layout e contactFomrs\nb96649f Chore: Criando estrutura do checkpoint-5\n6693b73 Initial commit from Create Next App"
+  }
+}

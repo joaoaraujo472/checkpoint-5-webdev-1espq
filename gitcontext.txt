@@ -1,0 +1,32 @@
+# CONTEXTO GIT - 1ESPQ/joaoaraujo472-checkpoint-5-webdev-1espq
+# Path: /Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPQ/joaoaraujo472-checkpoint-5-webdev-1espq
+
+## git remote -v
+origin	https://github.com/joaoaraujo472/checkpoint-5-webdev-1espq (fetch)
+origin	https://github.com/joaoaraujo472/checkpoint-5-webdev-1espq (push)
+
+## git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+## git log --oneline -50 (default branch)
+26660a4 feat: adcionando participantes
+e1a2097 feat: adcionando contactList
+9a9c3c2 feat: adicionando layout e contactFomrs
+b96649f Chore: Criando estrutura do checkpoint-5
+6693b73 Initial commit from Create Next App
+
+## git shortlog -sn -e (HEAD)
+4	Laboratório FIAP <labsfiap@fiap.com.br>
+     1	joao <joaoaaraujosilva2022@gmail.com>
+
+## git log --oneline --graph --all -20
+* 26660a4 feat: adcionando participantes
+* e1a2097 feat: adcionando contactList
+* 9a9c3c2 feat: adicionando layout e contactFomrs
+* b96649f Chore: Criando estrutura do checkpoint-5
+* 6693b73 Initial commit from Create Next App
+
+## contagem de commits HEAD
+5
